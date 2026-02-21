@@ -1,0 +1,15 @@
+# Bibliography
+# Track your source materials here (metadata only — no full texts in repo)
+# This file serves as a reference for source citations in notes.
+
+sources:
+  # Example entry — replace with your actual sources:
+  #
+  # - id: munson-fluids-8
+  #   title: "Fundamentals of Fluid Mechanics"
+  #   authors: ["Munson, B.R.", "Okiishi, T.H.", "Huebsch, W.W.", "Rothmayer, A.P."]
+  #   edition: "8th"
+  #   year: 2016
+  #   publisher: "Wiley"
+  #   isbn: "978-1119080701"
+  #   notes_generated: []    # list of note filenames extracted from this source

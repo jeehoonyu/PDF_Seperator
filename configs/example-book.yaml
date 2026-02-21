@@ -1,0 +1,33 @@
+# ─── Book Config Template ───────────────────────────────────────────
+# Copy this file and rename it to match your book: <book-id>.yaml
+# Then fill in the chapter page ranges from the table of contents.
+#
+# IMPORTANT: All page numbers are PDF-internal (1 = first page of the file),
+# NOT the printed page number at the bottom. Open the PDF viewer and check
+# the page counter in the navigation bar.
+# ─────────────────────────────────────────────────────────────────────
+
+# Path to the source PDF, relative to the project root.
+source_pdf: sources/example-book.pdf
+
+# Where to write chapter PDFs (auto-created).
+output_dir: chapters/example-book
+
+# Pages prepended to EVERY chapter (e.g. notation/symbol tables).
+# Use PDF-internal page numbers. Empty list if none needed.
+prepend_pages: []
+
+# Chapter definitions.
+# - num:   chapter number (used for zero-padded filename: ch01, ch02, ...)
+# - title: used in filename after slugification
+# - pages: [first, last] inclusive, PDF-internal page numbers
+chapters:
+  - num: 1
+    title: "Introduction"
+    pages: [1, 20]
+
+  - num: 2
+    title: "Chapter Two Title"
+    pages: [21, 50]
+
+  # Add more chapters as needed...

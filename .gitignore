@@ -1,0 +1,26 @@
+# Source material (copyright — do not commit)
+sources/
+*.pdf
+*.epub
+*.djvu
+
+# LLM intermediate outputs
+cache/
+.extraction_cache/
+
+# Claude Code instructions (keep local only)
+CLAUDE.md
+.claude/
+
+# Personal book configs (keep local only)
+configs/CMPT450_book
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*~
