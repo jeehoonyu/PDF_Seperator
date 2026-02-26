@@ -1,0 +1,72 @@
+# ─── Numerical Analysis, 10th Edition ────────────────────────────────────────
+# Burden, Faires & Burden — Cengage Learning, 2016
+# ISBN: 978-1-305-46535-0
+#
+# IMPORTANT: All page numbers below are PDF-internal page numbers
+# (1 = first page of the file), NOT the printed page numbers.
+# Open the PDF, navigate to each chapter's first page, and read
+# the page counter in your PDF viewer's navigation bar.
+#
+# Current status: page ranges are TODO — fill in before running split_pdf.py
+# Total PDF pages: 918
+# ─────────────────────────────────────────────────────────────────────────────
+
+source_pdf: sources/numerical-analysis-10th-edition-10nbsped-1305465350-1305253663-9781305465350-9781305253667_compress.pdf
+output_dir: chapters/numerical-analysis-10th
+
+# Pages prepended to every chapter (e.g. notation/symbol table).
+# Set to e.g. [5, 6] if you want those PDF pages included in every chapter.
+prepend_pages: []
+
+chapters:
+  - num: 1
+    title: "Mathematical Preliminaries and Error Analysis"
+    pages: [19, 63]   # TODO: set correct PDF page range
+
+  - num: 2
+    title: "Solutions of Equations in One Variable"
+    pages: [65, 120]   # TODO
+
+  - num: 3
+    title: "Interpolation and Polynomial Approximation"
+    pages: [121, 188]   # TODO
+
+  - num: 4
+    title: "Numerical Differentiation and Integration"
+    pages: [189, 276]   # TODO
+
+  - num: 5
+    title: "Initial-Value Problems for Ordinary Differential Equations"
+    pages: [277, 377]   # TODO
+
+  - num: 6
+    title: "Direct Methods for Solving Linear Systems"
+    pages: [379, 453]   # TODO
+
+  - num: 7
+    title: "Iterative Techniques in Matrix Algebra"
+    pages: [455, 522]   # TODO
+
+  - num: 8
+    title: "Approximation Theory"
+    pages: [523, 586]   # TODO
+
+  - num: 9
+    title: "Approximating Eigenvalues"
+    pages: [587, 657]   # TODO
+
+  - num: 10
+    title: "Numerical Solutions of Nonlinear Systems of Equations"
+    pages: [659, 702]   # TODO
+
+  - num: 11
+    title: "Boundary-Value Problems for Ordinary Differential Equations"
+    pages: [703, 748]   # TODO
+
+  - num: 12
+    title: "Numerical Solutions to Partial Differential Equations"
+    pages: [749, 798]   # TODO
+
+  - num: 13
+    title: "Answers for Selected Exercises"
+    pages: [805, 906]   # TODO
